@@ -1,1 +1,5 @@
-# Hello VuePress
+---
+sidebar: false
+---
+
+# Hi
