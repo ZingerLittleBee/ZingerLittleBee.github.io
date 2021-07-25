@@ -1,0 +1,15 @@
+{
+  "name": "ZingerLittleBee.github.io",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "dev": "vuepress dev docs",
+    "build": "vuepress build docs"
+  },
+  "repository": "https://github.com/ZingerLittleBee/ZingerLittleBee.github.io.git",
+  "author": "ZingerLittleBee",
+  "license": "MIT",
+  "devDependencies": {
+    "vuepress": "^1.8.2"
+  }
+}
