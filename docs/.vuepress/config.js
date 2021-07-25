@@ -1,6 +1,6 @@
 module.exports = {
     title: "Let's code bug",
-    description: "This is a buger",
+    description: "This is a bugger's repository",
     base: '/',
     themeConfig: {
       nav: [
@@ -41,6 +41,18 @@ module.exports = {
           ariaLabel: 'docker',
           link: '/tool/docker/'
         }
-      ]
+      ],
+      sidebar: {
+        '/tool/docker/': [
+            'install',
+            '安装命令'
+        ],
+        '/system/linux/': [
+            'iptables'
+        ],
+        '/framework/vue/': [
+            'Vue响应式代码实现之defineProperties'
+        ]
+      }
     }
   }
